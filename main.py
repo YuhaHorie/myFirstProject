@@ -11,9 +11,9 @@ def print_hi(name):
 
 # ガター内の緑色のボタンを押すとスクリプトを実行します。
 if __name__ == '__main__':
-    a="Yuha"
+    my_name=input("your name?")
 
-    print_hi(a)
+    print_hi(my_name)
 
 # PyCharm のヘルプは https://www.jetbrains.com/help/pycharm/ を参照してください
 # Exit code 0 は問題なく終わったということ
